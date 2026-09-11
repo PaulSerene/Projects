@@ -6,7 +6,7 @@
 <title>Python Learning Journey</title>
 <meta name="description" content="A professional Python learning roadmap and progress tracker. Master Python from fundamentals to advanced programming, automation, data science, and web development."/>
 <link rel="preconnect" href="https://fonts.googleapis.com"/>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&family=Press+Start+2P&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&family=Press+Start+2P&family=VT323&display=swap" rel="stylesheet"/>
 <style>
 /* =====================================================
    DESIGN TOKENS — Retro Purple Palette (Python Edition)
@@ -68,6 +68,7 @@
   --font:  'Inter', system-ui, -apple-system, sans-serif;
   --mono:  'JetBrains Mono', 'Fira Code', monospace;
   --pixel: 'Press Start 2P', 'Silkscreen', monospace;
+  --pixel-body: 'VT323', monospace;
 
   /* Transition */
   --t: 150ms ease;
@@ -452,7 +453,7 @@ input, select { font-family: inherit; }
 .diff-advanced:not(.completed) .tc-box { border-color: rgba(192,132,252,0.5); }
 .diff-boss:not(.completed)     .tc-box { border-color: rgba(255,94,122,0.5); }
 
-.topic-name { font-size: 0.79rem; color: var(--text-1); flex: 1; line-height: 1.35; transition: color var(--t); }
+.topic-name { font-family: var(--pixel-body); font-size: 1.15rem; color: var(--text-1); flex: 1; line-height: 1.2; transition: color var(--t); letter-spacing: 0.03em; }
 
 /* Difficulty badges */
 .diff-pill {
@@ -498,7 +499,7 @@ input, select { font-family: inherit; }
   border-radius: var(--radius-sm); overflow: hidden;
 }
 .quest-box-top { padding: 12px 14px; }
-.quest-topic { font-size: 0.84rem; font-weight: 600; color: var(--text-1); line-height: 1.4; margin-bottom: 3px; }
+.quest-topic { font-family: var(--pixel-body); font-size: 1.3rem; font-weight: 400; color: var(--text-1); line-height: 1.2; margin-bottom: 4px; letter-spacing: 0.03em; }
 .quest-world-label { font-size: 0.7rem; color: var(--text-3); font-family: var(--mono); }
 .quest-reward { font-size: 0.7rem; color: var(--green); font-family: var(--mono); margin-top: 8px; }
 .quest-btn {
@@ -518,7 +519,7 @@ input, select { font-family: inherit; }
 }
 .recent-item:last-child { border-bottom: none; }
 .recent-check { color: var(--green); flex-shrink: 0; font-size: 0.68rem; }
-.recent-name { flex: 1; color: var(--text-2); line-height: 1.3; }
+.recent-name { flex: 1; color: var(--text-2); line-height: 1.2; font-family: var(--pixel-body); font-size: 1.15rem; letter-spacing: 0.03em; }
 .recent-time { font-size: 0.65rem; color: var(--text-4); white-space: nowrap; font-family: var(--mono); }
 
 /* Achievements */
