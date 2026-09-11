@@ -17,7 +17,6 @@ A complete, interactive Python learning roadmap and progress, tracking your jour
 - **Domain Progress** — Visual progress bars for each learning area
 - **Expand / Collapse** — Manage visual density as needed
 - **Export / Import** — Backup and restore your progress as JSON
-- **Reset** — Clear Python progress only (never affects C++ roadmap)
 - **Persistent** — Progress saved automatically in `localStorage`
 
 ---
@@ -92,15 +91,23 @@ A complete, interactive Python learning roadmap and progress, tracking your jour
 
 ---
 
-## 🗂️ Data Independence
+## 🎨 Design & UI
 
-This roadmap stores progress under the localStorage key `py_journey_v1`.
-
-The C++ roadmap uses `cpp_dsa_journey_v2`.
-
-**They are completely independent.** Resetting Python progress never affects C++ progress, and vice versa.
+The interface is built with a **retro terminal / cyberpunk aesthetic**, featuring:
+- Deep purple and black terminal backgrounds
+- Neon green, cyan, and orange syntax accents
+- Arcade/pixel typography for topic elements and UI panels
+- Game-like XP, progress bars, and quest systems
 
 ---
+
+
+## 🗂️ Data Independence
+
+This roadmap stores its progress locally in your browser under the `localStorage` key: `py_journey_v1`.
+
+---
+
 
 ## 🚀 How to Use
 
